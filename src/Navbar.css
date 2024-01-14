@@ -1,0 +1,104 @@
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-menu{
+    align-items: center;
+    margin-top: -45px;
+    right: -300px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    padding-top: 50px;
+    transition: right 0.3s ease-in-out;
+    background-color: white;
+    display: block;
+}
+.nav-menu ul{
+    margin-top: 0;
+    list-style: none;
+    padding: 10px 20px;
+}
+.nav-menu li{
+    cursor: pointer;
+    color: black;
+}
+.nav-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+}
+.nav-show{
+    right: 0;
+    background-color: white;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 300px;
+    transition: right 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+.overlay.visible {
+    display: block;
+  }
+.nav-show-header{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+.close-nav{
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav-show-header h3{
+    padding: 0;
+}
+.nav-link{
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    text-decoration: none;
+    background-color: rgb(238, 236, 236);
+    border-radius: 8px;
+    color: black;
+}
+.nav-link:visited{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    border: 0.5px solid rgb(192, 191, 191);
+}
+.nav-btn:hover, .close-nav:hover{
+    background-color: rgb(238, 236, 236);
+}
