@@ -1,0 +1,39 @@
+.create form{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.create {
+    margin: 20px;
+}
+.atribute {
+
+    margin: 5px;
+}
+.create input, .create textarea, .create select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 7px;
+    overflow: scroll;
+}
+.create button {
+  background: black;
+  color:white;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+  margin: 10px 0px;
+}
+.create button:hover{
+    background-color: gray;
+}
+.create label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
